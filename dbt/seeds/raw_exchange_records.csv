@@ -1,0 +1,12 @@
+record_id,exchange,account_id,account_label,owner_id,record_type,asset,amount,side,counter_asset,counter_amount,fee_asset,fee_amount,order_id,counterparty,ts_unix
+f1-lot-eth,coinbase_prime,trading,Trading,user-1,deposit,ETH,2,,,,,,"",,1699999136
+f1-lot-btc,coinbase_prime,trading,Trading,user-1,deposit,BTC,1,,,,,,"",,1699999136
+f1-trade,coinbase_prime,trading,Trading,user-1,trade,ETH,2,sell,USDC,6000,BTC,0.0005,"",,1700000000
+f2-wd,kraken,trading,Trading,user-1,withdrawal,ETH,5,,,,,,"",,1700000000
+f2-dep,kraken,cold,Cold Storage,user-1,deposit,ETH,5,,,,,,"",,1700000045
+f3-wd,kraken,trading,Trading,user-1,withdrawal,ETH,5,,,,,,"",,1700000000
+f3-dep,kraken,cold,Cold Storage,user-1,deposit,ETH,5,,,,,,"",,1700000045
+f3-ext-buy,kraken,trading,Trading,user-1,trade,ETH,5,buy,USD,15000,,,,"",unrelated-otc-desk,1700000010
+f4-fiat-in,coinbase_prime,trading,Trading,user-1,deposit,USD,10000,,,,,,"",ORD-88291,,1700000000
+f4-trade,coinbase_prime,trading,Trading,user-1,trade,ETH,3,buy,USD,10000,,,,"",ORD-88291,,1700000005
+f4-auto-wd,coinbase_prime,trading,Trading,user-1,withdrawal,ETH,3,,,,,,"",ORD-88291,connected-wallet,1700000012

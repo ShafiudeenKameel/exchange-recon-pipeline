@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+dbt/target/
+data/warehouse.duckdb
+data/bronze/*.json
+bin/
+.env
+.idea/
+.DS_Store
